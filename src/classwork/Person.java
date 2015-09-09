@@ -1,20 +1,31 @@
-package classwork;
+package src.classwork;
 
 public class Person {
-    private String firstName;
-    private String lastName;
-    
-    public Person(String first, String last) {
-   	 this.firstName = first;
-   	 this.lastName = last;
-    }
-    
-    public void setName(String first, String last) {
-   	 this.firstName = first;
-   	 this.lastName = last;
-    }
-    
-    public String getName() {
-   	 return firstName + " " + lastName;
-    }
+	private int hireDay;
+	private int hireMonth;
+	private int hireYear;
+
+	public void setHireDay(int day) {
+		this.hireDay = day;
+	}
+
+	public int getHireDay() {
+		return hireDay;
+	}
+
+	public void setHireMonth(int month) {
+		this.hireMonth = month;
+	}
+
+	public int getHireMonth() {
+		return hireMonth;
+	}
+
+	public void setHireYear(int year) {
+		this.hireYear = year;
+	}
+
+	public int getHireYear() {
+		return hireYear;
+	}
 }
